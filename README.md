@@ -60,7 +60,7 @@ So I was looking for a great server with an API for storing my files. I tried mu
 ## Getting Started
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [https://example.com](https://example.com) or use a custom one
 2. Clone the repo
    ```sh
    git clone https://github.com/rmenai007/file-upload.git

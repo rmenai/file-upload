@@ -2,3 +2,4 @@ uvicorn>=0.14.0
 fastapi>=0.65.2
 starlette>=0.14.2
 aiofiles>=0.7.0
+content_size_limit_asgi>=0.1.5

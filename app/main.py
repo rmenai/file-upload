@@ -25,6 +25,12 @@ async def root_api():
     return RedirectResponse(url=f"/{Settings.api_path}/docs")
 
 
+@v1.get("/generate_key")
+async def generate_key(length: int = 50):
+    """Redirects main url to docs"""
+    return {"key": api_key_handler.generate_key(length)}
+
+
 @v1.post("/upload")
 async def upload_file(request: Request, key: APIKey = Depends(api_key_handler.verify),
                       file: UploadFile = File(...), folder: str = ""):

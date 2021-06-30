@@ -60,7 +60,9 @@ class FileHandler:
 
     async def delete(self):
         """Deletes the file locally"""
+        del FileHandler.files[self.id]
+
         try:
             os.remove(f"{Settings.upload_path}/{self.path}")
         except OSError:
-            raise FileNotFoundError
+            pass

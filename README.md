@@ -1,50 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/rmenai007/file-upload">
-    <img src="https://image.flaticon.com/icons/png/512/2165/2165703.png" alt="Logo" width="80" height="80">
-  </a>
-
-<h3 align="center">File-Upload</h3>
-
-  <p align="center">
-    The best performence API for storing your files.
-    <br />
-    <a href="https://file-upload.rmenai007.repl.co/api/v1/docs"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/rmenai007/file-upload/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/rmenai007/file-upload/issues">Request Feature</a>
-  </p>
-</p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -63,20 +16,19 @@ problem: They are not fast enough. That's why I decide to make my own, a simple 
 
 ### Installation
 
-1. Get a free API Key at [https://file-upload.rmenai007.repl.co/api/v1/generate_key](https://file-upload.rmenai007.repl.co/api/v1/generate_key) or use a custom one
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/rmenai007/file-upload.git
    ```
-3. Install the python packages
+2. Install the python packages
    ```sh
    pip install -r requirements.txt
    ```
-4. Now install [python-dotenv](https://pypi.org/project/python-dotenv/)
+3. Now install [python-dotenv](https://pypi.org/project/python-dotenv/)
    ```sh
    pip install python-dotenv
    ```
-5. Create a file called .env then enter your API key
+4. Create a file called .env then enter your API key
    ```JS
    API_KEY = 'ENTER YOUR API'
    ```
@@ -128,16 +80,6 @@ class FileUpload:
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-
-## Contact
-
-Menai Rami - [dArKhAcKs#7713](https://discordapp.com/users/640422864125952004/) - rami.menai@outlook.com
-
-Project Link: [https://github.com/rmenai007/file-upload](https://github.com/rmenai007/file-upload)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
